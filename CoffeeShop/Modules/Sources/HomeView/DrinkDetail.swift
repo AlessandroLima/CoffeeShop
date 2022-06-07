@@ -7,12 +7,13 @@
 //
 
 import SwiftUI
+import Core
 
-struct DrinkDetail: View {
+public struct DrinkDetail: View {
     
-    var drink: Drink
+    public var drink: Drink
     
-    var body: some View {
+    public var body: some View {
         NavigationView{
             List{
                 ZStack(alignment: .bottom) {
@@ -59,8 +60,8 @@ struct DrinkDetail: View {
     
 }
 
-struct OrderButton: View{
-    var body: some View {
+public struct OrderButton: View{
+    public var body: some View {
         Button(action: {}){
             Text("Comprar")
                 .frame(width: 200, height: 50)

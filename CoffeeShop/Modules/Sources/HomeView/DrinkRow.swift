@@ -7,6 +7,8 @@
 //
 
 import SwiftUI
+import Core
+import DrinkDetail
 
 struct DrinkRow: View {
     

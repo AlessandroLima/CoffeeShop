@@ -1,6 +1,6 @@
 import Foundation
 
-let drinkData:[Drink] = load("coffees.json")
+public let drinkData:[Drink] = load("coffees.json")
 
 func load<T:Decodable>(_ filename: String, as type: T.Type = T.self ) -> T{
     
