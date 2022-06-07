@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,7 @@
 		1D77A3CC2477E56300D7F39E /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D77A3CB2477E56300D7F39E /* Data.swift */; };
 		1D77A3CE2477FF8000D7F39E /* DrinkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D77A3CD2477FF8000D7F39E /* DrinkItem.swift */; };
 		1D77A3D024780D1900D7F39E /* DrinkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D77A3CF24780D1900D7F39E /* DrinkRow.swift */; };
+		71DB3390284F8A6D00CBA11C /* Modules in Frameworks */ = {isa = PBXBuildFile; productRef = 71DB338F284F8A6D00CBA11C /* Modules */; };
 		D2A4FCC6247ACA410035905C /* DrinkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A4FCC5247ACA410035905C /* DrinkDetail.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		1D77A3CB2477E56300D7F39E /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		1D77A3CD2477FF8000D7F39E /* DrinkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkItem.swift; sourceTree = "<group>"; };
 		1D77A3CF24780D1900D7F39E /* DrinkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkRow.swift; sourceTree = "<group>"; };
+		71DB338D284F8A5200CBA11C /* Modules */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Modules; path = CoffeeShop/Modules; sourceTree = "<group>"; };
 		D2A4FCC5247ACA410035905C /* DrinkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71DB3390284F8A6D00CBA11C /* Modules in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,9 +76,11 @@
 		1D77A3962476D3D600D7F39E = {
 			isa = PBXGroup;
 			children = (
+				71DB338D284F8A5200CBA11C /* Modules */,
 				1D77A3A12476D3D600D7F39E /* CoffeeShop */,
 				1D77A3B82476D3DC00D7F39E /* CoffeeShopTests */,
 				1D77A3A02476D3D600D7F39E /* Products */,
+				71DB338E284F8A6D00CBA11C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,6 +154,13 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		71DB338E284F8A6D00CBA11C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -165,6 +177,9 @@
 			dependencies = (
 			);
 			name = CoffeeShop;
+			packageProductDependencies = (
+				71DB338F284F8A6D00CBA11C /* Modules */,
+			);
 			productName = CoffeeShop;
 			productReference = 1D77A39F2476D3D600D7F39E /* CoffeeShop.app */;
 			productType = "com.apple.product-type.application";
@@ -521,6 +536,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		71DB338F284F8A6D00CBA11C /* Modules */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Modules;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1D77A3972476D3D600D7F39E /* Project object */;
 }
