@@ -8,7 +8,7 @@
 
 import UIKit
 import SwiftUI
-import Modules
+import HomeView
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
