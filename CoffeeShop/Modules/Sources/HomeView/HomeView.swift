@@ -1,5 +1,6 @@
 import SwiftUI
 import Core
+import DrinkDetail
 public struct HomeView: View {
     
     public var categories: [String:[Drink]]{

@@ -58,6 +58,10 @@ public struct DrinkDetail: View {
         }
     }
     
+    //Init vazio para acessar de maneira pública
+    public init (drink: Drink = drinkData[3]){
+        self.drink = drink
+    }
 }
 
 public struct OrderButton: View{
