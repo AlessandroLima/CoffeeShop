@@ -1,0 +1,74 @@
+
+[
+    {
+        "id": 1,
+        "name": "Cappuccino",
+        "category": "hot",
+        "image": "coffee1",
+        "description": "Cappuccino, do italiano, pronunciado: ou capuchino, geralmente pronunciado: em português, é uma bebida italiana preparada com café expresso e leite. Um cappuccino clássico, muito famoso no Brasil e consiste em um terço de café expresso, um terço de leite vaporizado e um terço de espuma de leite vaporizado."
+    },
+    {
+        "id": 2,
+        "name": "Latte",
+        "category": "hot",
+        "image": "coffee2",
+        "description": "Latte é uma bebida de café expresso com uma quantidade generosa de espuma de leite no topo."
+    },
+    {
+        "id": 3,
+        "name": "Café expresso",
+        "category": "hot",
+        "image": "coffee3",
+        "description": "Um café expresso, frequentemente referido simplesmente como expresso, é um método de preparar café através da passagem de água quente sob alta pressão pelo café moído."
+    },
+    {
+        "id": 4,
+        "name": "Café macchiato",
+        "category": "hot",
+        "image": "coffee4",
+        "description": "Um branco achatado é uma bebida de café que consiste em café expresso com micro espuma. É comparável a um café com leite, mas menor em volume e com menos espuma, tendo, portanto, uma proporção"
+    },
+    {
+        "id": 5,
+        "name": "Flat white",
+        "category": "hot",
+        "image": "coffee5",
+        "description": "É uma bebida de café que consiste em café expresso com micro espuma. É comparável a um café com leite, mas menor em volume e com menos espuma."
+    },
+    {
+        "id": 6,
+        "name": "Cappuccino Gelado",
+        "category": "cold",
+        "image": "iceCoffee1",
+        "description": "Cappuccino, do italiano, pronunciado: ou capuchino, geralmente pronunciado: em português, é uma bebida italiana preparada com café expresso e leite. Um cappuccino clássico, muito famoso no Brasil e consiste em um terço de café expresso, um terço de leite vaporizado e um terço de espuma de leite vaporizado."
+    },
+    {
+        "id": 7,
+        "name": "Latte Gelado",
+        "category": "cold",
+        "image": "iceCoffee2",
+        "description": "Latte é uma bebida de café expresso com uma quantidade generosa de espuma de leite no topo."
+    },
+    {
+        "id": 8,
+        "name": "Café verão",
+        "category": "cold",
+        "image": "iceCoffee3",
+        "description": "Um café expresso, frequentemente referido simplesmente como expresso, é um método de preparar café através da passagem de água quente sob alta pressão pelo café moído."
+    },
+    {
+        "id": 9,
+        "name": "Macchiato Ice",
+        "category": "cold",
+        "image": "iceCoffee4",
+        "description": "Um branco achatado é uma bebida de café que consiste em café expresso com micro espuma. É comparável a um café com leite, mas menor em volume e com menos espuma, tendo, portanto, uma proporção"
+    },
+    {
+        "id": 10,
+        "name": "Ice Flat white",
+        "category": "cold",
+        "image": "iceCoffee5",
+        "description": "É uma bebida de café que consiste em café expresso com micro espuma. É comparável a um café com leite, mas menor em volume e com menos espuma."
+    }
+]
+
