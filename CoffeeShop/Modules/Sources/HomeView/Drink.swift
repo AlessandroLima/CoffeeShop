@@ -1,11 +1,3 @@
-//
-//  Coffee.swift
-//  CoffeeShop
-//
-//  Created by Resource on 21/05/20.
-//  Copyright © 2020 Aletlima. All rights reserved.
-//
-
 import SwiftUI
 
 struct Drink: Codable, Hashable, Identifiable {

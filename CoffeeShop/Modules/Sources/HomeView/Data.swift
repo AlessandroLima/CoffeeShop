@@ -1,11 +1,3 @@
-//
-//  Data.swift
-//  CoffeeShop
-//
-//  Created by Resource on 22/05/20.
-//  Copyright © 2020 Aletlima. All rights reserved.
-//
-
 import Foundation
 
 let drinkData:[Drink] = load("coffees.json")
