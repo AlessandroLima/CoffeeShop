@@ -1,20 +1,16 @@
 import SwiftUI
 import Core
 import DrinkDetail
+
 public struct HomeView: View {
     
-    public var categories: [String:[Drink]]{
-        .init(
-            grouping: drinkData,
-            by: {$0.category.rawValue}
-        )
-    }
+    var homeViewModel: HomeViewModel = HomeViewModel()
     
     public var body: some View {
         NavigationView{
             
-            List(categories.keys.sorted(), id: \String.self) { key in
-                DrinkRow(categoryName: "\(key) Drinks".uppercased(), drinks: self.categories[key]!)
+            List(homeViewModel.categories.keys.sorted(), id: \String.self) { key in
+                DrinkRow(categoryName: "\(key) Drinks".uppercased(), drinks: self.homeViewModel.categories[key]!)
                     .frame( height:320 )
                     .padding(.top)
                     .padding(.bottom)
