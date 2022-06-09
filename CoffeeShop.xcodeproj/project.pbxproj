@@ -13,8 +13,8 @@
 		1D77A3AC2476D3DB00D7F39E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D77A3AB2476D3DB00D7F39E /* Preview Assets.xcassets */; };
 		1D77A3AF2476D3DB00D7F39E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D77A3AD2476D3DB00D7F39E /* LaunchScreen.storyboard */; };
 		1D77A3BA2476D3DC00D7F39E /* CoffeeShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D77A3B92476D3DC00D7F39E /* CoffeeShopTests.swift */; };
+		1D77A3CA2476DDE900D7F39E /* coffees.json in Resources */ = {isa = PBXBuildFile; fileRef = 1D77A3C92476DDE900D7F39E /* coffees.json */; };
 		71DB3390284F8A6D00CBA11C /* Modules in Frameworks */ = {isa = PBXBuildFile; productRef = 71DB338F284F8A6D00CBA11C /* Modules */; };
-		71F11AF52851312600118B60 /* coffees.json in Resources */ = {isa = PBXBuildFile; fileRef = 71F11AF42851312600118B60 /* coffees.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +38,8 @@
 		1D77A3B52476D3DC00D7F39E /* CoffeeShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D77A3B92476D3DC00D7F39E /* CoffeeShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeShopTests.swift; sourceTree = "<group>"; };
 		1D77A3BB2476D3DC00D7F39E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D77A3C92476DDE900D7F39E /* coffees.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = coffees.json; sourceTree = "<group>"; };
 		71DB338D284F8A5200CBA11C /* Modules */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Modules; path = CoffeeShop/Modules; sourceTree = "<group>"; };
-		71F11AF42851312600118B60 /* coffees.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = coffees.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +115,7 @@
 		1D77A3C52476D60C00D7F39E /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				71F11AF42851312600118B60 /* coffees.json */,
+				1D77A3C92476DDE900D7F39E /* coffees.json */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -214,7 +214,7 @@
 				1D77A3AF2476D3DB00D7F39E /* LaunchScreen.storyboard in Resources */,
 				1D77A3AC2476D3DB00D7F39E /* Preview Assets.xcassets in Resources */,
 				1D77A3A92476D3DB00D7F39E /* Assets.xcassets in Resources */,
-				71F11AF52851312600118B60 /* coffees.json in Resources */,
+				1D77A3CA2476DDE900D7F39E /* coffees.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,7 +12,7 @@ import Core
 public struct DrinkDetail: View {
     
     public var drink: Drink
-     
+    
     public var body: some View {
         NavigationView{
             List{
