@@ -3,23 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1D77A3A32476D3D600D7F39E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D77A3A22476D3D600D7F39E /* AppDelegate.swift */; };
 		1D77A3A52476D3D600D7F39E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D77A3A42476D3D600D7F39E /* SceneDelegate.swift */; };
-		1D77A3A72476D3D600D7F39E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D77A3A62476D3D600D7F39E /* HomeView.swift */; };
 		1D77A3A92476D3DB00D7F39E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D77A3A82476D3DB00D7F39E /* Assets.xcassets */; };
 		1D77A3AC2476D3DB00D7F39E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D77A3AB2476D3DB00D7F39E /* Preview Assets.xcassets */; };
 		1D77A3AF2476D3DB00D7F39E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D77A3AD2476D3DB00D7F39E /* LaunchScreen.storyboard */; };
 		1D77A3BA2476D3DC00D7F39E /* CoffeeShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D77A3B92476D3DC00D7F39E /* CoffeeShopTests.swift */; };
-		1D77A3C82476D63400D7F39E /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D77A3C72476D63400D7F39E /* Coffee.swift */; };
 		1D77A3CA2476DDE900D7F39E /* coffees.json in Resources */ = {isa = PBXBuildFile; fileRef = 1D77A3C92476DDE900D7F39E /* coffees.json */; };
-		1D77A3CC2477E56300D7F39E /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D77A3CB2477E56300D7F39E /* Data.swift */; };
-		1D77A3CE2477FF8000D7F39E /* DrinkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D77A3CD2477FF8000D7F39E /* DrinkItem.swift */; };
-		1D77A3D024780D1900D7F39E /* DrinkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D77A3CF24780D1900D7F39E /* DrinkRow.swift */; };
-		D2A4FCC6247ACA410035905C /* DrinkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A4FCC5247ACA410035905C /* DrinkDetail.swift */; };
+		71DB3390284F8A6D00CBA11C /* Modules in Frameworks */ = {isa = PBXBuildFile; productRef = 71DB338F284F8A6D00CBA11C /* Modules */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +31,6 @@
 		1D77A39F2476D3D600D7F39E /* CoffeeShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D77A3A22476D3D600D7F39E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D77A3A42476D3D600D7F39E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1D77A3A62476D3D600D7F39E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1D77A3A82476D3DB00D7F39E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D77A3AB2476D3DB00D7F39E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1D77A3AE2476D3DB00D7F39E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -44,12 +38,8 @@
 		1D77A3B52476D3DC00D7F39E /* CoffeeShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D77A3B92476D3DC00D7F39E /* CoffeeShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeShopTests.swift; sourceTree = "<group>"; };
 		1D77A3BB2476D3DC00D7F39E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1D77A3C72476D63400D7F39E /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
 		1D77A3C92476DDE900D7F39E /* coffees.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = coffees.json; sourceTree = "<group>"; };
-		1D77A3CB2477E56300D7F39E /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		1D77A3CD2477FF8000D7F39E /* DrinkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkItem.swift; sourceTree = "<group>"; };
-		1D77A3CF24780D1900D7F39E /* DrinkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkRow.swift; sourceTree = "<group>"; };
-		D2A4FCC5247ACA410035905C /* DrinkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetail.swift; sourceTree = "<group>"; };
+		71DB338D284F8A5200CBA11C /* Modules */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Modules; path = CoffeeShop/Modules; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71DB3390284F8A6D00CBA11C /* Modules in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,9 +64,11 @@
 		1D77A3962476D3D600D7F39E = {
 			isa = PBXGroup;
 			children = (
+				71DB338D284F8A5200CBA11C /* Modules */,
 				1D77A3A12476D3D600D7F39E /* CoffeeShop */,
 				1D77A3B82476D3DC00D7F39E /* CoffeeShopTests */,
 				1D77A3A02476D3D600D7F39E /* Products */,
+				71DB338E284F8A6D00CBA11C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,9 +84,7 @@
 		1D77A3A12476D3D600D7F39E /* CoffeeShop */ = {
 			isa = PBXGroup;
 			children = (
-				1D77A3C62476D62100D7F39E /* Models */,
 				1D77A3C52476D60C00D7F39E /* Resource */,
-				1D77A3C42476D5F000D7F39E /* Views */,
 				1D77A3A22476D3D600D7F39E /* AppDelegate.swift */,
 				1D77A3A42476D3D600D7F39E /* SceneDelegate.swift */,
 				1D77A3A82476D3DB00D7F39E /* Assets.xcassets */,
@@ -121,17 +112,6 @@
 			path = CoffeeShopTests;
 			sourceTree = "<group>";
 		};
-		1D77A3C42476D5F000D7F39E /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				1D77A3A62476D3D600D7F39E /* HomeView.swift */,
-				1D77A3CD2477FF8000D7F39E /* DrinkItem.swift */,
-				1D77A3CF24780D1900D7F39E /* DrinkRow.swift */,
-				D2A4FCC5247ACA410035905C /* DrinkDetail.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		1D77A3C52476D60C00D7F39E /* Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,13 +120,11 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
-		1D77A3C62476D62100D7F39E /* Models */ = {
+		71DB338E284F8A6D00CBA11C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1D77A3CB2477E56300D7F39E /* Data.swift */,
-				1D77A3C72476D63400D7F39E /* Coffee.swift */,
 			);
-			path = Models;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +143,9 @@
 			dependencies = (
 			);
 			name = CoffeeShop;
+			packageProductDependencies = (
+				71DB338F284F8A6D00CBA11C /* Modules */,
+			);
 			productName = CoffeeShop;
 			productReference = 1D77A39F2476D3D600D7F39E /* CoffeeShop.app */;
 			productType = "com.apple.product-type.application";
@@ -252,13 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D77A3A32476D3D600D7F39E /* AppDelegate.swift in Sources */,
-				1D77A3CC2477E56300D7F39E /* Data.swift in Sources */,
-				1D77A3D024780D1900D7F39E /* DrinkRow.swift in Sources */,
 				1D77A3A52476D3D600D7F39E /* SceneDelegate.swift in Sources */,
-				1D77A3A72476D3D600D7F39E /* HomeView.swift in Sources */,
-				1D77A3C82476D63400D7F39E /* Coffee.swift in Sources */,
-				1D77A3CE2477FF8000D7F39E /* DrinkItem.swift in Sources */,
-				D2A4FCC6247ACA410035905C /* DrinkDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,6 +496,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		71DB338F284F8A6D00CBA11C /* Modules */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Modules;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1D77A3972476D3D600D7F39E /* Project object */;
 }

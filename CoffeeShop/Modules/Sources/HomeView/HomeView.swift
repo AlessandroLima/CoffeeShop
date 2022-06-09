@@ -1,23 +1,16 @@
-//
-//  ContentView.swift
-//  CoffeeShop
-//
-//  Created by Resource on 21/05/20.
-//  Copyright © 2020 Aletlima. All rights reserved.
-//
-
 import SwiftUI
-
-struct HomeView: View {
+import Core
+import DrinkDetail
+public struct HomeView: View {
     
-    var categories: [String:[Drink]]{
+    public var categories: [String:[Drink]]{
         .init(
             grouping: drinkData,
             by: {$0.category.rawValue}
         )
     }
     
-    var body: some View {
+    public var body: some View {
         NavigationView{
             
             List(categories.keys.sorted(), id: \String.self) { key in
@@ -29,6 +22,9 @@ struct HomeView: View {
         .navigationBarTitle("Coffee Shop")
         }
     }
+    //Init vazio para acessar de maneira pública
+    public init (){}
+    
 }
 
 struct HomeView_Previews: PreviewProvider {
