@@ -5,8 +5,6 @@ public class HomeCoordinator: CoordinatorProtocol {
     
     public var window: UIWindow
     
-    var rootViewController = UINavigationController()
-    
     public init(window: UIWindow){
         self.window = window
     }

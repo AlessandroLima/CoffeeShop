@@ -35,10 +35,6 @@ struct DrinkRow: View {
             }
         }.padding()
     }
-    
-    public func showDetailView(){
-        
-    }
 }
 
 struct DrinkRow_Previews: PreviewProvider {
