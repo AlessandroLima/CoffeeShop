@@ -1,7 +1,8 @@
 import Foundation
 import Core
+import SwiftUI
 
-public struct HomeViewModel {
+public class HomeViewModel: ObservableObject {
     
     public var categories: [String:[Drink]]{
         .init(

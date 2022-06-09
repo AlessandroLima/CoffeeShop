@@ -12,6 +12,8 @@ import Core
 public struct DrinkDetail: View {
     
     public var drink: Drink
+    
+    var drinkDetailViewModel = DrinkDetailViewModel()
      
     public var body: some View {
         NavigationView{
