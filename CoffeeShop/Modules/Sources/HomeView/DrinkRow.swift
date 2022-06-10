@@ -1,21 +1,19 @@
-//
-//  DrinkRow.swift
-//  CoffeeShop
-//
-//  Created by Resource on 22/05/20.
-//  Copyright © 2020 Aletlima. All rights reserved.
-//
-
 import SwiftUI
 import Core
 import DrinkDetail
 
-struct DrinkRow: View {
+
+public struct DrinkRow: View {
     
     var categoryName: String
     var drinks: [Drink]
     
-    var body: some View {
+    public init(categoryName: String, drinks: [Drink]) {
+        self.categoryName = categoryName
+        self.drinks = drinks
+    }
+    
+    public var body: some View {
         VStack(alignment: .leading) {
             
             Text(self.categoryName)
@@ -24,21 +22,17 @@ struct DrinkRow: View {
             ScrollView(.horizontal, showsIndicators: false){
                 HStack(alignment: .top) {
                     ForEach(self.drinks, id: \.name) { drink in
-                        
-                        NavigationLink(destination: DrinkDetail(drink: drink)){
-                            DrinkItem(drink: drink)
-                            .frame(width: 300)
-                            .padding(.trailing, 30)
-                        }
+                        DrinkDetailCoordinator(drink: drink).navlink
                     }
                 }
-            }
-        }.padding()
+            }.padding()
+        }
+        
     }
+ 
 }
-
-struct DrinkRow_Previews: PreviewProvider {
-    static var previews: some View {
-        DrinkRow(categoryName: "Hot Drinks", drinks: drinkData)
+    struct DrinkRow_Previews: PreviewProvider {
+        static var previews: some View {
+            DrinkRow(categoryName: "Hot Drinks", drinks: drinkData)
+        }
     }
-}
