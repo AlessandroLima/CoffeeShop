@@ -9,11 +9,15 @@
 import SwiftUI
 import Core
 
-struct DrinkItem: View {
+public struct DrinkItem: View {
     
-    var drink: Drink
+    public var drink: Drink
     
-    var body: some View {
+    public init(drink: Drink){
+        self.drink = drink
+    }
+    
+    public var body: some View {
         VStack(alignment: .leading, spacing: 16.0) {
             Image(drink.image)
                 .resizable()
