@@ -12,7 +12,8 @@
 		D2240C7E2C9886D800CD847A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2240C7D2C9886D800CD847A /* AppDelegate.swift */; };
 		D27609862B92134E006D7755 /* CreateOrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27609852B92134E006D7755 /* CreateOrderResponse.swift */; };
 		D27609872B92134E006D7755 /* CreateOrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27609852B92134E006D7755 /* CreateOrderResponse.swift */; };
-		D29B9DD02B8BE2F6000D00F4 /* MockURLSessionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29B9DCF2B8BE2F6000D00F4 /* MockURLSessionData.swift */; };
+		D28D6DA82D413D0A003976CF /* MockURLSessionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28D6DA72D413D0A003976CF /* MockURLSessionData.swift */; };
+		D28D6DA92D413D0A003976CF /* MockURLSessionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28D6DA72D413D0A003976CF /* MockURLSessionData.swift */; };
 		D29B9DD32B8CC978000D00F4 /* OrderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29B9DD22B8CC978000D00F4 /* OrderListViewModel.swift */; };
 		D29B9DD42B8CC978000D00F4 /* OrderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29B9DD22B8CC978000D00F4 /* OrderListViewModel.swift */; };
 		D29B9DD72B8CE306000D00F4 /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29B9DD62B8CE306000D00F4 /* OrderListView.swift */; };
@@ -65,7 +66,7 @@
 		D21A1EE92C905D7600E6EFEE /* OrderTotalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTotalView.swift; sourceTree = "<group>"; };
 		D2240C7D2C9886D800CD847A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D27609852B92134E006D7755 /* CreateOrderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderResponse.swift; sourceTree = "<group>"; };
-		D29B9DCF2B8BE2F6000D00F4 /* MockURLSessionData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MockURLSessionData.swift; path = ../../WeatherSearchNew/WeatherSearchNewTests/MockURLSessionData.swift; sourceTree = "<group>"; };
+		D28D6DA72D413D0A003976CF /* MockURLSessionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLSessionData.swift; sourceTree = "<group>"; };
 		D29B9DD22B8CC978000D00F4 /* OrderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewModel.swift; sourceTree = "<group>"; };
 		D29B9DD62B8CE306000D00F4 /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
 		D29BBAA52C89DB21005688CD /* AddCoffeeOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderViewModel.swift; sourceTree = "<group>"; };
@@ -185,12 +186,12 @@
 		D2C209872B826A91005E759D /* CoffeeShopTests */ = {
 			isa = PBXGroup;
 			children = (
-				D29B9DCF2B8BE2F6000D00F4 /* MockURLSessionData.swift */,
 				D2C209AA2B826D71005E759D /* CooffeTests.swift */,
 				D2C209A82B826C2D005E759D /* OrdersTests.swift */,
 				D2C209882B826A91005E759D /* CoffeeShopTests.swift */,
 				D2C209B02B8789BC005E759D /* APIEndPointTests.swift */,
 				D2C209B72B8791E7005E759D /* ServiceTests.swift */,
+				D28D6DA72D413D0A003976CF /* MockURLSessionData.swift */,
 			);
 			path = CoffeeShopTests;
 			sourceTree = "<group>";
@@ -364,6 +365,7 @@
 				D2C209772B826A8D005E759D /* CoffeeShopApp.swift in Sources */,
 				D29BBAAC2C8B7BA0005688CD /* AddCoffeeOrderView.swift in Sources */,
 				D2C209A62B826B11005E759D /* Coffee.swift in Sources */,
+				D28D6DA82D413D0A003976CF /* MockURLSessionData.swift in Sources */,
 				D29B9DD32B8CC978000D00F4 /* OrderListViewModel.swift in Sources */,
 				D2C209B52B878C4B005E759D /* Service.swift in Sources */,
 				D29BBAA62C89DB21005688CD /* AddCoffeeOrderViewModel.swift in Sources */,
@@ -382,6 +384,7 @@
 				D2C209892B826A91005E759D /* CoffeeShopTests.swift in Sources */,
 				D2C209AB2B826D71005E759D /* CooffeTests.swift in Sources */,
 				D27609872B92134E006D7755 /* CreateOrderResponse.swift in Sources */,
+				D28D6DA92D413D0A003976CF /* MockURLSessionData.swift in Sources */,
 				D29BBAAA2C8B74BF005688CD /* CoffeeViewModel.swift in Sources */,
 				D29B9DD82B8CE306000D00F4 /* OrderListView.swift in Sources */,
 				D2C209A92B826C2D005E759D /* OrdersTests.swift in Sources */,
@@ -389,7 +392,6 @@
 				D29BBAAD2C8B7BA0005688CD /* AddCoffeeOrderView.swift in Sources */,
 				D29B9DD42B8CC978000D00F4 /* OrderListViewModel.swift in Sources */,
 				D2C209B82B8791E7005E759D /* ServiceTests.swift in Sources */,
-				D29B9DD02B8BE2F6000D00F4 /* MockURLSessionData.swift in Sources */,
 				D2C209AF2B8785BF005E759D /* APIEndPoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
