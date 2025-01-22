@@ -26,20 +26,20 @@ enum APIEndPoint {
     }
 }
 
-struct Order: Codable, Equatable {
-    
-    var name: String
-    var coffeeName: String
-    var total: Double
-    var size: String
-    
-    static func == (lhs: Order, rhs: Order)-> Bool {
-        return lhs.name == rhs.name
-        && lhs.coffeeName == rhs.coffeeName
-        && lhs.total == rhs.total
-        && lhs.size == rhs.size
-    }
-}
+//struct Order: Codable, Equatable {
+//    
+//    var name: String
+//    var coffeeName: String
+//    var total: Double
+//    var size: String
+//    
+//    static func == (lhs: Order, rhs: Order)-> Bool {
+//        return lhs.name == rhs.name
+//        && lhs.coffeeName == rhs.coffeeName
+//        && lhs.total == rhs.total
+//        && lhs.size == rhs.size
+//    }
+//}
 
 
 enum NetworkError : Error {
