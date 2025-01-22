@@ -26,10 +26,10 @@ class CooffeTests: XCTestCase {
         // Then
         XCTAssertEqual(allCooffes.count, 3)
         XCTAssertEqual(allCooffes[0].name, "Cappuccino")
-        XCTAssertEqual(allCooffes[1].name, "Espresso")
+        XCTAssertEqual(allCooffes[1].name, "Expresso")
         XCTAssertEqual(allCooffes[2].name, "Regular")
         XCTAssertEqual(allCooffes[0].imageURL, "Cappuccino")
-        XCTAssertEqual(allCooffes[1].imageURL, "Espresso")
+        XCTAssertEqual(allCooffes[1].imageURL, "Expresso")
         XCTAssertEqual(allCooffes[2].imageURL, "Regular")
         XCTAssertEqual(allCooffes[0].price, 2.5)
         XCTAssertEqual(allCooffes[1].price, 2.1)
